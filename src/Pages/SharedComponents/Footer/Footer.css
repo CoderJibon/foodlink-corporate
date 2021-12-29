@@ -1,0 +1,200 @@
+.footerDesk {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px;
+}
+.footerlogo {
+  margin-bottom: 30px;
+}
+.footerlogo img {
+  width: 177px;
+  height: auto;
+}
+.footerArea {
+  border-top: 1px solid #153261;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.listText {
+  font-family: Playfair Display !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  background: -webkit-linear-gradient(90deg, #006998 6.94%, #153261 87.5%);
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.listitem {
+  margin-bottom: 10px !important;
+}
+.listitem .listText:hover {
+  background: -webkit-linear-gradient(90deg, #000 6.94%, #000 87.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footerBtn {
+  display: flex;
+  margin-top: 15px;
+}
+.footerArea .footerBtn a {
+  margin-right: 20px;
+  width: 192px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  text-transform: capitalize;
+}
+.subcribe h4 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 147.8%;
+  background: linear-gradient(90deg, #006998 0%, #153261 50.13%);
+  font-weight: 400;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.field .MuiOutlinedInput-root {
+  height: 39px;
+  border-radius: 0;
+  border-color: rgba(21, 50, 97, 1);
+}
+.field label {
+  top: -8px;
+}
+
+.subcri {
+  margin-top: 18px;
+}
+.subcri button {
+  color: rgba(255, 255, 255, 1);
+  background-color: #153261;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 147.8%;
+  border-radius: 0;
+  margin-left: 10px;
+  padding: 6px 20px;
+}
+.download p {
+  margin-bottom: 10px;
+}
+.download a {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #153261;
+  text-decoration: none;
+}
+.download h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .footerDesk {
+    margin-top: 20px;
+  }
+  .footerlogo {
+    margin-bottom: 10px;
+  }
+  .footerBtn {
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footerArea {
+    border-top: 1px solid #153261;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .subcri button {
+    margin-top: 10px;
+    display: block;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .footerBtn.mobilefooter {
+    display: none;
+  }
+  .socialItems {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footerArea .footerBtn a {
+    margin-right: 20px;
+    max-width: 192px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+    font-size: 8px;
+    line-height: 147.8%;
+    opacity: 0.5;
+    padding: 10px 20px;
+  }
+  .footerDesk a span {
+    font-size: 14px !important;
+    line-height: 20px;
+  }
+  .footerBtn.desktopfooter {
+    display: none;
+  }
+  .footerBtn.mobilefooter {
+    margin-top: 30px;
+  }
+  .field label {
+    top: -8px;
+    font-size: 12px;
+  }
+  .field #mui-2 {
+    font-size: 14px !important;
+  }
+  .subcri button {
+    font-size: 12px !important;
+    line-height: 20px;
+  }
+  .footerlogo {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .subcribe h4 {
+    font-size: 12px;
+    line-height: 147.8%;
+  }
+  .download a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .download h4 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .download p {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .BannerSlider .slick-dots {
+    bottom: 1px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footerArea .footerBtn a {
+    font-size: 6px;
+    padding: 8px 10px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.art-preloader {
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.art-preloader {
+  position: fixed;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  width: auto !important;
+  height: auto !important;
+}
+.art-preloader .art-preloader-content {
+  margin-bottom: 15px;
+  text-align: center;
+}

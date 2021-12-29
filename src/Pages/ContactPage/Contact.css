@@ -1,0 +1,175 @@
+.leftTextBox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2.sectionHeading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+  background: -webkit-linear-gradient(89.92deg, #006998 0.03%, #153261 99.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 80px !important;
+}
+.leftimg img {
+  /* max-height: 522px; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+h3.head {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 147.8%;
+  background: -webkit-linear-gradient(89.92deg, #006998 0.03%, #153261 99.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 322px;
+}
+.contentBox p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  color: #000000;
+  max-width: 611px;
+  margin-top: 35px;
+}
+.contentBox button {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid !important;
+  border-image-slice: 30;
+  border-image-source: linear-gradient(
+    90deg,
+    #006998 0%,
+    #153261 100%
+  ) !important;
+  border-radius: 0;
+  background: -webkit-linear-gradient(90deg, #006998 6.94%, #153261 87.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+.contentBox a {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid !important;
+  border-image-slice: 30;
+  border-image-source: linear-gradient(
+    90deg,
+    #006998 0%,
+    #153261 100%
+  ) !important;
+  border-radius: 0;
+  background: -webkit-linear-gradient(90deg, #006998 6.94%, #153261 87.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 35px;
+}
+.contentBox .contentText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+  max-width: 610px;
+}
+
+.contactFormPage .FromHeading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 147.8%;
+  background: -webkit-linear-gradient(90deg, #006998 6.94%, #153261 87.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contactFormPage .fromBox {
+  background: #ffffff;
+  box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  max-width: 1030px;
+  padding: 40px 70px;
+}
+form.formFill label {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 147.8%;
+  color: #000000;
+  opacity: 0.5;
+}
+form.formFill input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #006998;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentBox .contentText {
+    font-size: 10px;
+    line-height: 180%;
+  }
+  h2.sectionHeading {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 251px;
+  }
+  .leftTextBox {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .leftimg img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 218px;
+  }
+  .contentBox p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 200%;
+    max-width: 325px;
+  }
+  h3.head {
+    font-size: 16px;
+    line-height: 147.8%;
+  }
+  .contentBox button {
+    font-size: 10px;
+    line-height: 11px;
+    margin-top: 35px;
+  }
+  .contentBox a {
+    font-size: 10px;
+    line-height: 11px;
+    margin-top: 35px;
+  }
+}

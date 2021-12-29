@@ -1,0 +1,129 @@
+.BannerSlider {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-gap: 2px;
+}
+
+.home_vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_vertical {
+}
+.home_vertical p {
+  transform: rotate(-90deg);
+  background: -webkit-linear-gradient(90deg, #006998 6.94%, #153261 87.5%);
+  font-weight: 400;
+  text-transform: capitalize;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  min-width: max-content;
+}
+.social_vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  color: #006998;
+}
+.bannerHeading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+.bannerItem {
+  width: 100%;
+  max-height: 572px;
+  height: 572px;
+  /* padding-top: 110px;
+  padding-bottom: 110px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  display: flex !important;
+}
+.bannerButton {
+  font-family: Barlow !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  list-style: 22px;
+  padding: 18px 44px !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+  margin-top: 40px !important;
+  transition: 1s !important;
+}
+.bannerButton:hover {
+  background-color: #fff !important;
+  color: #1976d2 !important;
+}
+.BannerSlider .slick-dots {
+  bottom: 15px;
+}
+.BannerSlider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: transparent;
+}
+.BannerSlider li.slick-active button {
+  background: #fff;
+}
+.BannerSlider .slick-dots li button:before {
+  color: transparent;
+}
+.BannerSlider .slick-dots li button {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  padding: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social_vertical {
+    display: none;
+  }
+  .bannerHeading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .BannerSlider {
+    grid-template-columns: 4% 92% 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bannerItem {
+    max-height: 250px;
+    height: 250px;
+  }
+  .bannerHeading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .bannerButton {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    padding: 7px 10px !important;
+    margin-top: 25px !important;
+  }
+  .home_vertical p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+}

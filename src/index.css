@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.css-10hburv-MuiTypography-root {
+  font-family: "Playfair Display", serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+h2.sectionHeading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: -webkit-linear-gradient(89.92deg, #006998 0.03%, #153261 99.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  h2.sectionHeading {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 251px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}

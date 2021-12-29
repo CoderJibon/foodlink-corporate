@@ -1,0 +1,25 @@
+.imgSlideBox .imgSlideHeading {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  max-width: 798px;
+  margin: auto;
+  background: -webkit-linear-gradient(89.92deg, #006998 0.03%, #153261 99.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 80px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgSlideBox .imgSlideHeading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 400px;
+  }
+}
